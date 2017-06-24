@@ -1,8 +1,8 @@
-package test;
+package playground;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
-import test.commands.StartCar;
+import playground.commands.StartCar;
 
 import java.io.IOException;
 

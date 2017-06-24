@@ -1,11 +1,10 @@
-package test;
+package playground;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
-import com.lightbend.akka.sample.Printer;
-import test.commands.Move;
-import test.commands.StartCar;
+import playground.commands.Move;
+import playground.commands.StartCar;
 
 public class CarService extends AbstractActor {
 

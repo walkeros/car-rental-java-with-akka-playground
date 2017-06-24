@@ -1,13 +1,13 @@
-package test.commands;
+package playground.commands;
 
 /**
  * Created by tosh on 2017-06-23.
  */
-public class StartCar {
+public class Move {
 
     private final String LicensePlateNumber;
 
-    public StartCar(String licensePlateNumber) {
+    public Move(String licensePlateNumber) {
         LicensePlateNumber = licensePlateNumber;
     }
 

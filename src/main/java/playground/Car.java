@@ -1,12 +1,9 @@
-package test;
+package playground;
 
 import akka.actor.*;
-import akka.japi.Procedure;
 import akka.persistence.*;
-import test.commands.Move;
-import test.commands.StartCar;
-import test.events.CarMoved;
-import test.events.CarStarted;
+import playground.commands.Move;
+import playground.events.CarMoved;
 
 import java.util.Optional;
 

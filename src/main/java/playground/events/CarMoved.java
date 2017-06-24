@@ -1,4 +1,4 @@
-package test.events;
+package playground.events;
 
 /**
  * Created by tosh on 2017-06-23.
